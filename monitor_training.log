@@ -1,0 +1,12 @@
+2025-05-20 17:07:24,974 - __main__ - INFO - Starting monitoring with interval 60s
+2025-05-20 17:07:27,909 - __main__ - INFO - CPU: 49.7%, Memory: 75.7% (Available: 3.33 GB)
+2025-05-20 17:07:27,909 - __main__ - INFO - GPU Memory: Total=6.00 GB, Allocated=0.00 GB, Reserved=0.00 GB, Free=6.00 GB
+2025-05-20 17:07:27,909 - __main__ - INFO - Latest metrics - Train Loss: 0.7109, Train Acc: 0.4992, Val Loss: 0.6942, Val Acc: 0.5068
+2025-05-20 17:50:03,831 - __main__ - INFO - Starting monitoring with interval 60s
+2025-05-20 17:50:06,979 - __main__ - INFO - CPU: 28.9%, Memory: 80.4% (Available: 2.68 GB)
+2025-05-20 17:50:06,980 - __main__ - INFO - GPU Memory: Total=6.00 GB, Allocated=0.00 GB, Reserved=0.00 GB, Free=6.00 GB
+2025-05-20 17:50:06,984 - __main__ - INFO - Latest metrics - Train Loss: 0.7109, Train Acc: 0.4992, Val Loss: 0.6942, Val Acc: 0.5068
+2025-05-20 18:05:40,617 - __main__ - INFO - Starting monitoring with interval 60s
+2025-05-20 18:05:44,854 - __main__ - INFO - CPU: 37.4%, Memory: 78.7% (Available: 2.92 GB)
+2025-05-20 18:05:44,854 - __main__ - INFO - GPU Memory: Total=6.00 GB, Allocated=0.00 GB, Reserved=0.00 GB, Free=6.00 GB
+2025-05-20 18:05:44,855 - __main__ - INFO - Latest metrics - Train Loss: 0.7109, Train Acc: 0.4992, Val Loss: 0.6942, Val Acc: 0.5068

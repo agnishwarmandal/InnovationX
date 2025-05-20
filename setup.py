@@ -1,0 +1,42 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="mqtm",
+    version="0.1.0",
+    packages=find_packages(),
+    install_requires=[
+        "numpy>=1.22.0",
+        "pandas>=1.4.0",
+        "torch>=2.0.0",
+        "torchvision>=0.15.0",
+        "diffusers>=0.16.0",
+        "scikit-learn>=1.0.0",
+        "matplotlib>=3.5.0",
+        "tqdm>=4.62.0",
+        "giotto-tda>=0.5.1",
+        "ripser>=0.6.1",
+        "persim>=0.3.1",
+        "pytorch-lightning>=2.0.0",
+        "tensorboard>=2.10.0",
+        "wandb>=0.13.0",
+        "pyarrow>=8.0.0",
+        "fastparquet>=0.8.0",
+        "ccxt>=2.0.0",
+        "vectorbt>=0.24.0",
+        "networkx>=2.7.0",
+        "torch-geometric>=2.0.0",
+    ],
+    extras_require={
+        "dev": [
+            "pytest>=7.0.0",
+            "black>=22.0.0",
+            "isort>=5.10.0",
+            "mypy>=0.950",
+        ],
+    },
+    author="INNOX",
+    author_email="info@innox.com",
+    description="Multiverse Quantum-Topological Meta-Learning for Crypto Trading",
+    keywords="machine learning, trading, crypto, quantum, topology",
+    python_requires=">=3.8",
+)

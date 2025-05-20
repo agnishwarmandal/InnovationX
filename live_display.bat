@@ -1,0 +1,3 @@
+@echo off
+echo Starting live training display...
+python live_training_display.py --log_file=robust_training.log --refresh_rate=0.5

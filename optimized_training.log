@@ -1,0 +1,58 @@
+2025-05-20 15:56:49,728 - __main__ - INFO - Using device: cuda
+2025-05-20 15:56:49,728 - __main__ - INFO - Batch size: 16
+2025-05-20 15:56:49,728 - __main__ - INFO - Number of epochs: 2
+2025-05-20 15:56:49,728 - __main__ - INFO - Learning rate: 0.0001
+2025-05-20 15:56:49,729 - __main__ - INFO - Loading D:\INNOX\Crypto_Data\BTC_USDT_5m.csv...
+2025-05-20 15:56:50,455 - __main__ - INFO - Loaded 599027 rows with columns: ['timestamp', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_asset_volume', 'number_of_trades', 'taker_buy_base_asset_volume', 'taker_buy_quote_asset_volume']
+2025-05-20 15:56:50,985 - __main__ - INFO - Split BTC_USDT_5m data: train=419269, val=89843, test=89845
+2025-05-20 15:56:50,986 - __main__ - INFO - Processed BTC_USDT_5m data
+2025-05-20 15:56:50,986 - __main__ - INFO - Loading D:\INNOX\Crypto_Data\ETH_USDT_5m.csv...
+2025-05-20 15:56:51,725 - __main__ - INFO - Loaded 576109 rows with columns: ['timestamp', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_asset_volume', 'number_of_trades', 'taker_buy_base_asset_volume', 'taker_buy_quote_asset_volume']
+2025-05-20 15:56:52,214 - __main__ - INFO - Split ETH_USDT_5m data: train=403242, val=86409, test=86409
+2025-05-20 15:56:52,214 - __main__ - INFO - Processed ETH_USDT_5m data
+2025-05-20 15:57:15,950 - __main__ - INFO - Created datasets: train=(822273, 100, 5), val=(176014, 100, 5), test=(176016, 100, 5)
+2025-05-20 15:57:29,252 - __main__ - INFO - Model architecture:
+SimpleModel(
+  (lstm): LSTM(5, 128, num_layers=2, batch_first=True, dropout=0.1)
+  (fc): Sequential(
+    (0): Linear(in_features=128, out_features=64, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=64, out_features=2, bias=True)
+  )
+)
+2025-05-20 16:02:06,140 - __main__ - INFO - Epoch 1/2, Train Loss: nan, Train Acc: 0.4927, Val Loss: nan, Val Acc: 0.4817
+2025-05-20 16:02:06,154 - __main__ - INFO - Saved best model with validation accuracy: 0.4817
+2025-05-20 16:06:37,919 - __main__ - INFO - Epoch 2/2, Train Loss: nan, Train Acc: 0.4927, Val Loss: nan, Val Acc: 0.4817
+2025-05-20 16:06:37,923 - __main__ - INFO - Saved final model
+2025-05-20 16:10:22,592 - __main__ - INFO - Using device: cuda
+2025-05-20 16:10:22,592 - __main__ - INFO - Batch size: 16
+2025-05-20 16:10:22,592 - __main__ - INFO - Number of epochs: 50
+2025-05-20 16:10:22,592 - __main__ - INFO - Learning rate: 0.0001
+2025-05-20 16:10:22,593 - __main__ - INFO - Loading D:\INNOX\Crypto_Data\BTC_USDT_5m.csv...
+2025-05-20 16:10:23,471 - __main__ - INFO - Loaded 599027 rows with columns: ['timestamp', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_asset_volume', 'number_of_trades', 'taker_buy_base_asset_volume', 'taker_buy_quote_asset_volume']
+2025-05-20 16:10:23,939 - __main__ - INFO - Split BTC_USDT_5m data: train=419269, val=89843, test=89845
+2025-05-20 16:10:23,940 - __main__ - INFO - Processed BTC_USDT_5m data
+2025-05-20 16:10:23,940 - __main__ - INFO - Loading D:\INNOX\Crypto_Data\ETH_USDT_5m.csv...
+2025-05-20 16:10:24,641 - __main__ - INFO - Loaded 576109 rows with columns: ['timestamp', 'open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_asset_volume', 'number_of_trades', 'taker_buy_base_asset_volume', 'taker_buy_quote_asset_volume']
+2025-05-20 16:10:25,081 - __main__ - INFO - Split ETH_USDT_5m data: train=403242, val=86409, test=86409
+2025-05-20 16:10:25,082 - __main__ - INFO - Processed ETH_USDT_5m data
+2025-05-20 16:10:49,490 - __main__ - INFO - Created datasets: train=(822273, 100, 5), val=(176014, 100, 5), test=(176016, 100, 5)
+2025-05-20 16:11:01,201 - __main__ - INFO - Model architecture:
+SimpleModel(
+  (lstm): LSTM(5, 128, num_layers=2, batch_first=True, dropout=0.1)
+  (fc): Sequential(
+    (0): Linear(in_features=128, out_features=64, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=64, out_features=2, bias=True)
+  )
+)
+2025-05-20 16:16:16,330 - __main__ - INFO - Epoch 1/50, Train Loss: nan, Train Acc: 0.4927, Val Loss: nan, Val Acc: 0.4817
+2025-05-20 16:16:16,374 - __main__ - INFO - Saved best model with validation accuracy: 0.4817
+2025-05-20 16:21:33,622 - __main__ - INFO - Epoch 2/50, Train Loss: nan, Train Acc: 0.4927, Val Loss: nan, Val Acc: 0.4817
+2025-05-20 16:27:09,656 - __main__ - INFO - Epoch 3/50, Train Loss: nan, Train Acc: 0.4927, Val Loss: nan, Val Acc: 0.4817
+2025-05-20 16:33:20,646 - __main__ - INFO - Epoch 4/50, Train Loss: nan, Train Acc: 0.4927, Val Loss: nan, Val Acc: 0.4817
+2025-05-20 16:39:37,812 - __main__ - INFO - Epoch 5/50, Train Loss: nan, Train Acc: 0.4927, Val Loss: nan, Val Acc: 0.4817
+2025-05-20 16:39:37,822 - __main__ - INFO - Saved checkpoint at epoch 5
+2025-05-20 16:45:43,842 - __main__ - INFO - Epoch 6/50, Train Loss: nan, Train Acc: 0.4927, Val Loss: nan, Val Acc: 0.4817

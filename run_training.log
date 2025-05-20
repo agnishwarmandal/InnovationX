@@ -1,0 +1,29 @@
+2025-05-20 17:07:23,702 - __main__ - INFO - System information before training:
+2025-05-20 17:07:27,229 - __main__ - INFO - CPU Usage: 52.6%
+2025-05-20 17:07:27,229 - __main__ - INFO - Memory Usage: 73.7% (Available: 3.60 GB)
+2025-05-20 17:07:27,230 - __main__ - INFO - GPU Memory: Total=6.00 GB, Allocated=0.00 GB, Reserved=0.00 GB, Free=6.00 GB
+2025-05-20 17:07:27,230 - __main__ - INFO - Running command: python robust_mqtm_training.py --data_dir=D:\INNOX\Crypto_Data --models_dir=models\robust_training --batch_size=16 --epochs=50 --learning_rate=1e-05
+2025-05-20 17:12:28,928 - __main__ - INFO - CPU Usage: 27.5%
+2025-05-20 17:12:28,945 - __main__ - INFO - Memory Usage: 82.0% (Available: 2.47 GB)
+2025-05-20 17:12:28,946 - __main__ - INFO - GPU Memory: Total=6.00 GB, Allocated=0.00 GB, Reserved=0.00 GB, Free=6.00 GB
+2025-05-20 17:17:28,844 - __main__ - INFO - CPU Usage: 35.4%
+2025-05-20 17:17:28,864 - __main__ - INFO - Memory Usage: 97.4% (Available: 0.36 GB)
+2025-05-20 17:17:28,865 - __main__ - INFO - GPU Memory: Total=6.00 GB, Allocated=0.00 GB, Reserved=0.00 GB, Free=6.00 GB
+2025-05-20 17:22:28,798 - __main__ - INFO - CPU Usage: 42.4%
+2025-05-20 17:22:28,802 - __main__ - INFO - Memory Usage: 95.6% (Available: 0.60 GB)
+2025-05-20 17:22:28,807 - __main__ - INFO - GPU Memory: Total=6.00 GB, Allocated=0.00 GB, Reserved=0.00 GB, Free=6.00 GB
+2025-05-20 17:27:28,805 - __main__ - INFO - CPU Usage: 26.0%
+2025-05-20 17:27:28,806 - __main__ - INFO - Memory Usage: 88.3% (Available: 1.61 GB)
+2025-05-20 17:27:28,806 - __main__ - INFO - GPU Memory: Total=6.00 GB, Allocated=0.00 GB, Reserved=0.00 GB, Free=6.00 GB
+2025-05-20 17:32:28,815 - __main__ - INFO - CPU Usage: 23.0%
+2025-05-20 17:32:28,815 - __main__ - INFO - Memory Usage: 93.7% (Available: 0.86 GB)
+2025-05-20 17:32:28,816 - __main__ - INFO - GPU Memory: Total=6.00 GB, Allocated=0.00 GB, Reserved=0.00 GB, Free=6.00 GB
+2025-05-20 17:37:28,807 - __main__ - INFO - CPU Usage: 15.8%
+2025-05-20 17:37:28,809 - __main__ - INFO - Memory Usage: 86.7% (Available: 1.82 GB)
+2025-05-20 17:37:28,810 - __main__ - INFO - GPU Memory: Total=6.00 GB, Allocated=0.00 GB, Reserved=0.00 GB, Free=6.00 GB
+2025-05-20 17:42:28,801 - __main__ - INFO - CPU Usage: 14.2%
+2025-05-20 17:42:28,802 - __main__ - INFO - Memory Usage: 94.0% (Available: 0.83 GB)
+2025-05-20 17:42:28,802 - __main__ - INFO - GPU Memory: Total=6.00 GB, Allocated=0.00 GB, Reserved=0.00 GB, Free=6.00 GB
+2025-05-20 17:47:54,536 - __main__ - INFO - CPU Usage: 62.2%
+2025-05-20 17:47:54,536 - __main__ - INFO - Memory Usage: 79.0% (Available: 2.88 GB)
+2025-05-20 17:47:54,539 - __main__ - INFO - GPU Memory: Total=6.00 GB, Allocated=0.00 GB, Reserved=0.00 GB, Free=6.00 GB

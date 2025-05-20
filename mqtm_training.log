@@ -1,0 +1,66 @@
+2025-05-20 15:45:11,799 - __main__ - INFO - Running MQTM Model Training...
+2025-05-20 15:45:11,801 - __main__ - INFO - Command: C:\Users\Agnishwar\anaconda3\python.exe train_mqtm_system.py --data_dir D:\INNOX\Crypto_Data --models_dir models --batch_size 16 --epochs 50 --learning_rate 0.0001 --train_all --symbols BTC_USDT ETH_USDT BNB_USDT --optimize_memory
+2025-05-20 15:45:16,628 - __main__ - INFO - Traceback (most recent call last):
+2025-05-20 15:45:16,629 - __main__ - INFO - File "D:\INNOX\train_mqtm_system.py", line 16, in <module>
+2025-05-20 15:45:16,629 - __main__ - INFO - from mqtm.config import config
+2025-05-20 15:45:16,630 - __main__ - INFO - SyntaxError: source code string cannot contain null bytes
+2025-05-20 15:45:17,066 - __main__ - ERROR - MQTM Model Training failed with return code 1
+2025-05-20 15:45:17,067 - __main__ - WARNING - MQTM model training failed, continuing with other steps
+2025-05-20 15:45:17,068 - __main__ - INFO - Running ASP Framework Training...
+2025-05-20 15:45:17,068 - __main__ - INFO - Command: C:\Users\Agnishwar\anaconda3\python.exe train_asp_framework.py --data_dir D:\INNOX\Crypto_Data --models_dir models --asp_dir models\asp --batch_size 16 --learning_rate 0.0001 --num_episodes 1000 --reward_type pnl --risk_aversion 0.1 --max_position_size 10 --stop_loss_pct 0.02 --take_profit_pct 0.05 --kl_budget 0.05 --perturbation_strength 0.1 --use_regime_detection --use_causal_model --symbols BTC_USDT ETH_USDT BNB_USDT --optimize_memory
+2025-05-20 15:45:19,425 - __main__ - INFO - Traceback (most recent call last):
+2025-05-20 15:45:19,425 - __main__ - INFO - File "D:\INNOX\train_asp_framework.py", line 16, in <module>
+2025-05-20 15:45:19,425 - __main__ - INFO - from mqtm.config import config
+2025-05-20 15:45:19,426 - __main__ - INFO - SyntaxError: source code string cannot contain null bytes
+2025-05-20 15:45:19,807 - __main__ - ERROR - ASP Framework Training failed with return code 1
+2025-05-20 15:45:19,807 - __main__ - WARNING - ASP framework training failed, continuing with other steps
+2025-05-20 15:45:19,807 - __main__ - INFO - Running MGI Module Training...
+2025-05-20 15:45:19,807 - __main__ - INFO - Command: C:\Users\Agnishwar\anaconda3\python.exe train_mgi_module.py --data_dir D:\INNOX\Crypto_Data --models_dir models --asp_dir models\asp --mgi_dir models\mgi --meta_batch_size 16 --num_iterations 1000 --meta_lr 1e-3 --use_adaptive_lr --optimize_hyperparams learning_rate risk_aversion stop_loss take_profit --symbols BTC_USDT ETH_USDT BNB_USDT --optimize_memory
+2025-05-20 15:45:22,263 - __main__ - INFO - Traceback (most recent call last):
+2025-05-20 15:45:22,263 - __main__ - INFO - File "D:\INNOX\train_mgi_module.py", line 16, in <module>
+2025-05-20 15:45:22,264 - __main__ - INFO - from mqtm.config import config
+2025-05-20 15:45:22,264 - __main__ - INFO - SyntaxError: source code string cannot contain null bytes
+2025-05-20 15:45:22,651 - __main__ - ERROR - MGI Module Training failed with return code 1
+2025-05-20 15:45:22,651 - __main__ - WARNING - MGI module training failed, continuing with other steps
+2025-05-20 15:45:22,651 - __main__ - INFO - Running BOM Module Training...
+2025-05-20 15:45:22,651 - __main__ - INFO - Command: C:\Users\Agnishwar\anaconda3\python.exe train_bom_module.py --data_dir D:\INNOX\Crypto_Data --models_dir models --asp_dir models\asp --bom_dir models\bom --batch_size 16 --num_iterations 1000 --num_models 3 --hidden_dims 128 128 --prior_std 0.1 --learning_rate 1e-3 --symbols BTC_USDT ETH_USDT BNB_USDT --optimize_memory
+2025-05-20 15:45:24,886 - __main__ - INFO - Traceback (most recent call last):
+2025-05-20 15:45:24,886 - __main__ - INFO - File "D:\INNOX\train_bom_module.py", line 16, in <module>
+2025-05-20 15:45:24,887 - __main__ - INFO - from mqtm.config import config
+2025-05-20 15:45:24,887 - __main__ - INFO - SyntaxError: source code string cannot contain null bytes
+2025-05-20 15:45:25,240 - __main__ - ERROR - BOM Module Training failed with return code 1
+2025-05-20 15:45:25,241 - __main__ - WARNING - BOM module training failed
+2025-05-20 15:45:25,241 - __main__ - INFO - MQTM training pipeline completed
+2025-05-20 15:48:20,968 - __main__ - INFO - Running MQTM Model Training...
+2025-05-20 15:48:20,968 - __main__ - INFO - Command: C:\Users\Agnishwar\anaconda3\python.exe train_mqtm_system.py --data_dir D:\INNOX\Crypto_Data --models_dir models --batch_size 16 --epochs 5 --learning_rate 0.0001 --train_all --symbols BTC_USDT ETH_USDT --optimize_memory
+2025-05-20 15:48:23,392 - __main__ - INFO - Traceback (most recent call last):
+2025-05-20 15:48:23,392 - __main__ - INFO - File "D:\INNOX\train_mqtm_system.py", line 16, in <module>
+2025-05-20 15:48:23,392 - __main__ - INFO - from mqtm.config import config
+2025-05-20 15:48:23,393 - __main__ - INFO - SyntaxError: source code string cannot contain null bytes
+2025-05-20 15:48:23,769 - __main__ - ERROR - MQTM Model Training failed with return code 1
+2025-05-20 15:48:23,769 - __main__ - WARNING - MQTM model training failed, continuing with other steps
+2025-05-20 15:48:23,770 - __main__ - INFO - Running ASP Framework Training...
+2025-05-20 15:48:23,770 - __main__ - INFO - Command: C:\Users\Agnishwar\anaconda3\python.exe train_asp_framework.py --data_dir D:\INNOX\Crypto_Data --models_dir models --asp_dir models\asp --batch_size 16 --learning_rate 0.0001 --num_episodes 10 --reward_type pnl --risk_aversion 0.1 --max_position_size 10 --stop_loss_pct 0.02 --take_profit_pct 0.05 --kl_budget 0.05 --perturbation_strength 0.1 --use_regime_detection --use_causal_model --symbols BTC_USDT ETH_USDT --optimize_memory
+2025-05-20 15:48:26,071 - __main__ - INFO - Traceback (most recent call last):
+2025-05-20 15:48:26,071 - __main__ - INFO - File "D:\INNOX\train_asp_framework.py", line 16, in <module>
+2025-05-20 15:48:26,071 - __main__ - INFO - from mqtm.config import config
+2025-05-20 15:48:26,071 - __main__ - INFO - SyntaxError: source code string cannot contain null bytes
+2025-05-20 15:48:26,447 - __main__ - ERROR - ASP Framework Training failed with return code 1
+2025-05-20 15:48:26,448 - __main__ - WARNING - ASP framework training failed, continuing with other steps
+2025-05-20 15:48:26,448 - __main__ - INFO - Running MGI Module Training...
+2025-05-20 15:48:26,448 - __main__ - INFO - Command: C:\Users\Agnishwar\anaconda3\python.exe train_mgi_module.py --data_dir D:\INNOX\Crypto_Data --models_dir models --asp_dir models\asp --mgi_dir models\mgi --meta_batch_size 16 --num_iterations 10 --meta_lr 1e-3 --use_adaptive_lr --optimize_hyperparams learning_rate risk_aversion stop_loss take_profit --symbols BTC_USDT ETH_USDT --optimize_memory
+2025-05-20 15:48:28,771 - __main__ - INFO - Traceback (most recent call last):
+2025-05-20 15:48:28,772 - __main__ - INFO - File "D:\INNOX\train_mgi_module.py", line 16, in <module>
+2025-05-20 15:48:28,772 - __main__ - INFO - from mqtm.config import config
+2025-05-20 15:48:28,772 - __main__ - INFO - SyntaxError: source code string cannot contain null bytes
+2025-05-20 15:48:29,150 - __main__ - ERROR - MGI Module Training failed with return code 1
+2025-05-20 15:48:29,150 - __main__ - WARNING - MGI module training failed, continuing with other steps
+2025-05-20 15:48:29,151 - __main__ - INFO - Running BOM Module Training...
+2025-05-20 15:48:29,151 - __main__ - INFO - Command: C:\Users\Agnishwar\anaconda3\python.exe train_bom_module.py --data_dir D:\INNOX\Crypto_Data --models_dir models --asp_dir models\asp --bom_dir models\bom --batch_size 16 --num_iterations 10 --num_models 3 --hidden_dims 128 128 --prior_std 0.1 --learning_rate 1e-3 --symbols BTC_USDT ETH_USDT --optimize_memory
+2025-05-20 15:48:31,699 - __main__ - INFO - Traceback (most recent call last):
+2025-05-20 15:48:31,700 - __main__ - INFO - File "D:\INNOX\train_bom_module.py", line 16, in <module>
+2025-05-20 15:48:31,700 - __main__ - INFO - from mqtm.config import config
+2025-05-20 15:48:31,701 - __main__ - INFO - SyntaxError: source code string cannot contain null bytes
+2025-05-20 15:48:32,074 - __main__ - ERROR - BOM Module Training failed with return code 1
+2025-05-20 15:48:32,074 - __main__ - WARNING - BOM module training failed
+2025-05-20 15:48:32,075 - __main__ - INFO - MQTM training pipeline completed
